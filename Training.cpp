@@ -10,10 +10,10 @@ int main(void)
 	ifstream input;
 	ofstream output;
 	string input_arr[6] = { "a","a","a","a","a","a" };
-	float data[2] = { 0,0 };
+	int data[2] = { 0,0 };
 	int i = 0;
 	int j = 0;
-	//stringstream ss;
+	stringstream ss;
 
 
 	int x_temp = 0;
@@ -33,17 +33,17 @@ int main(void)
 		cout << input_arr[i] << endl;
 		if ((i + 1) % 3 == 0)
 		{
-			/*ss << input_arr[i] << ' ';
+			ss << input_arr[i] << ' ';
 
 			ss >> data[j];
 			j++;
-			cout << data[j - 1] << endl; */
+			cout << data[j - 1] << endl;
 
-			data[j] = std::stof(input_arr[i]);
-			cout << data[j] << endl;
-			j++;
+			//data[j] = stof(input_arr[i]);
+			//cout << data[j] << endl;
+			//j++;
 		}
-		//ss.str("");
+
 		i++;
 
 	}
