@@ -99,7 +99,7 @@ int main(void)
 	while (!input.eof())
 	{
 		input >> data[i];
-		cout << data[i] << endl;
+		//cout << data[i] << endl;
 
 
 		i++;
@@ -114,7 +114,7 @@ int main(void)
 		x_temp = x_new;
 	}
 
-	cout << x_temp;
+	//cout << x_temp;
 
 	input.close();
 	output.close();
