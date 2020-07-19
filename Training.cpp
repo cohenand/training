@@ -10,7 +10,7 @@ int main(void)
 	ifstream input;
 	ofstream output;
 	string input_arr[6] = { "a","a","a","a","a","a" };
-	int data[2] = { 0,0 };
+	float data[2] = { 0,0 };
 	int i = 0;
 	int j = 0;
 	//stringstream ss;
@@ -39,7 +39,7 @@ int main(void)
 			j++;
 			cout << data[j - 1] << endl; */
 
-			data[j] = stof(input_arr[i]);
+			data[j] = std::stof(input_arr[i]);
 			cout << data[j] << endl;
 			j++;
 		}
