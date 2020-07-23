@@ -83,7 +83,7 @@ int main(void)
 	int i = 0;
 	int j = 0;
 	//stringstream ss;
-
+	//
 
 	int x_temp = 0;
 	int x_init = 1;
