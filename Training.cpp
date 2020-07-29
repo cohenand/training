@@ -50,17 +50,6 @@ int main(void)
 	}
 
 	cout << x_temp << endl;
-	
-	/*for (int z = 0; z < x_vector.size(); z++)
-	{
-		cout << x_vector[z] << ' ';
-	}
-
-	for (int q = 0; q < time_vector.size(); q++)
-	{
-		cout << time_vector[q] << ' ';
-	}*/
-
 
 
 	input.close();
