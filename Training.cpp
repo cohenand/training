@@ -18,8 +18,8 @@ int main(void)
 	int x_init = 1;
 	int x_new = 0;
 
-	vector<float> x_vector;
-	vector<float> time_vector;
+	vector<double> x_vector;
+	vector<double> time_vector;
 
 
 
