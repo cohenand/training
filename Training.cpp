@@ -43,14 +43,15 @@ int main(void)
 	for (int k = 0; k < data[1]; k++)
 	{
 		x_new = (1 - 3 * data[0]) * x_temp;
-		x_vector.push_back(x_new);
+		cout << (k+1)*data[0] << ' ' << x_new;
 		time_vector.push_back((k + 1) * data[0]);
+		x_vector.push_back(x_new);
 		x_temp = x_new;
 	}
 
 	cout << x_temp << endl;
 	
-	for (int z = 0; z < x_vector.size(); z++)
+	/*for (int z = 0; z < x_vector.size(); z++)
 	{
 		cout << x_vector[z] << ' ';
 	}
@@ -58,7 +59,7 @@ int main(void)
 	for (int q = 0; q < time_vector.size(); q++)
 	{
 		cout << time_vector[q] << ' ';
-	}
+	}*/
 
 
 
