@@ -17,7 +17,7 @@ int main(void)
 	double x_temp = 0;
 	double x_init = 1;
 	double x_new = 0;
-	int final = 0
+	int final = 0;
 
 	vector<double> x_vector;
 	vector<double> time_vector;
