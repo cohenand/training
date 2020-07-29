@@ -14,9 +14,9 @@ int main(void)
 	int i = 0;
 	int j = 0;
 
-	int x_temp = 0;
-	int x_init = 1;
-	int x_new = 0;
+	double x_temp = 0;
+	double x_init = 1;
+	double x_new = 0;
 
 	vector<double> x_vector;
 	vector<double> time_vector;
