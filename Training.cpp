@@ -40,7 +40,7 @@ int main(void)
 
 	x_temp = x_init;
 
-	for (int k = 0; k <= data[1]; k++)
+	for (int k = 0; k < data[1]; k++)
 	{
 		x_new = (1 - 3 * data[0]) * x_temp;
 		cout << (k)*data[0] << " ";
@@ -49,7 +49,7 @@ int main(void)
 		x_vector.push_back(x_new);
 		x_temp = x_new;
 	}
-
+	cout << (k)*data[0] << " ";
 	cout << x_temp << endl;
 
 
