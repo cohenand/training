@@ -91,8 +91,8 @@ int main(void)
 
 
 
-	input.open("params.dat");
-	output.open("output.dat");
+	input.open("/fslhome/cohenand/training/src/params.dat");
+	output.open("/fslhome/cohenand/training/src/output.dat");
 
 
 	//get data from params.dat
