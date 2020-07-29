@@ -49,9 +49,9 @@ int main(void)
 		time_vector.push_back((k + 1) * data[0]);
 		x_vector.push_back(x_new);
 		x_temp = x_new;
-		final = k;
+		final = k+1;
 	}
-	cout << final*data[0] << " ";
+	cout << (final)*data[0] << " ";
 	cout << x_temp << endl;
 
 
