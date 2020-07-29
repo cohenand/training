@@ -50,12 +50,12 @@ int main(void)
 
 	cout << x_temp << endl;
 	
-	for (int z = x_vector.begin(); z != x_vector.end(); ++z)
+	for (auto z = x_vector.begin(); z != x_vector.end(); ++z)
 	{
 		cout << *z << ' ';
 	}
 
-	for (int q = time_vector.begin(); q != time_vector.end(); ++q)
+	for (auto q = time_vector.begin(); q != time_vector.end(); ++q)
 	{
 		cout << *q << ' ';
 	}
