@@ -55,7 +55,7 @@ int main(void)
 		cout << *z << ' ';
 	}
 
-	for (int z = time_vector.begin(); z != time_vector.end(); ++z)
+	for (z = time_vector.begin(); z != time_vector.end(); ++z)
 	{
 		cout << *z << ' ';
 	}
