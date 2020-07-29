@@ -43,7 +43,7 @@ int main(void)
 	for (int k = 0; k < data[1]; k++)
 	{
 		x_new = (1 - 3 * data[0]) * x_temp;
-		cout << (k+1)*data[0] << ' ' << x_new;
+		cout << (k+1)*data[0] << " " << x_new;
 		time_vector.push_back((k + 1) * data[0]);
 		x_vector.push_back(x_new);
 		x_temp = x_new;
